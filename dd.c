@@ -9,12 +9,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-void concat(char *o, char *s1, char *s2){
-    o = malloc(strlen(s1)+strlen(s2)+1);
-    strcpy(o, s1);
-    strcat(o, s2);
-}
-
 int main( int argc, const char* argv[] ){
   if (argc < 9){
     printf("usage: dd -if input_file -of output_file -bs block_size -count block_count\n");
