@@ -8,7 +8,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <unistd.h>
 
 void concat(char *o, char *s1, char *s2){
     o = malloc(strlen(s1)+strlen(s2)+1);
